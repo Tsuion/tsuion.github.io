@@ -15,7 +15,7 @@ sidebar: auto
 - **メモとクレジット** チュートリアル傾向4th、ありがとうございます。
 
 ## 3. 詳説・荻窪式古典色彩図鑑
-<iframe src="https://turbowarp.org/698059149/embed" width="4300" height="249" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://turbowarp.org/698059149/embed" width="300" height="249" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 - **使い方** 平安時代に使用された色をまとめた図鑑です。フリーアイコンも配布しております。アイコン使用時は著作権表記をお願いします。
 - **メモとクレジット** 特になし
