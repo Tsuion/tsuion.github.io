@@ -30,7 +30,7 @@ module.exports = {
   themeConfig: {
     logo: 'wowane.png',
     repo: '',
-    editLinks: false,
+    editLinks: true,
     docsDir: '',
     editLinkText: '',
     lastUpdated: true,
