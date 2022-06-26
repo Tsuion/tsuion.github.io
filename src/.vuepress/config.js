@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Tsuion.dev',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,7 +16,8 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ['meta', { name: 'theme-color', content: '#1e2554' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -27,33 +28,38 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    logo: 'wowane.png',
     repo: '',
     editLinks: false,
     docsDir: '',
     editLinkText: '',
-    lastUpdated: false,
+    lastUpdated: true,
     nav: [
       {
-        text: 'Guide',
-        link: '/guide/',
+        text: 'About',
+        link: '/about/',
       },
       {
-        text: 'Config',
-        link: '/config/'
+        text: 'Blog',
+        link: '/blog/'
       },
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
+        text: 'Project',
+        link: '/project/'
+      },
+      {
+        text: 'link',
+        link: '/link/'
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/blog/': [
         {
-          title: 'Guide',
+          title: 'Blog',
           collapsable: false,
           children: [
             '',
-            'using-vue',
+            '20220611',
           ]
         }
       ],

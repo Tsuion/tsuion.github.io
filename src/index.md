@@ -1,15 +1,11 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: /wowane角丸.png
 tagline: 
-actionText: Quick Start →
-actionLink: /guide/
+actionText: もっと見る
+actionLink: /about/
 features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
-footer: Made by  with ❤️
+- title: お知らせ
+  details: 2022.06.11 本サイト公開
+footer: ©wowane 2022
 ---
