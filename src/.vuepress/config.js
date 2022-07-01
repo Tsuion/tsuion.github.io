@@ -50,6 +50,10 @@ module.exports = {
       {
         text: 'link',
         link: '/link/'
+      },
+      {
+        text: 'English',
+        link: 'https:tsuion.github.io/en/'
       }
     ],
     sidebar: {
