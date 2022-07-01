@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         text: 'English',
-        link: 'https:tsuion.github.io/en/'
+        link: 'https://tsuion.github.io/en/'
       }
     ],
     sidebar: {
