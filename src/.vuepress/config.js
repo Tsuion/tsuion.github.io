@@ -1,14 +1,26 @@
 const { description } = require('../../package')
 
 module.exports = {
+  
+  locales: {
+    // The key is the path for the locale to be nested under.
+    // As a special case, the default locale can use '/' as its path.
+    '/': {
+      lang: 'ja-JP', // this will be set as the lang attribute on <html>
+      title: 'Tsuion.dev',
+      description: 'wowane公式サイト'
+    },
+    '/en/': {
+      lang: 'en-US',
+      title: 'Tsuion.dev',
+      description: 'wowane offical site'
+    }
+  }
+  
+  
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Tsuion.dev',
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
-  description: description,
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -28,6 +40,16 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    nav: [
+      {
+        text: 'Languages',
+        ariaLabel: 'Language Menu',
+        items: [
+          { text: 'Japanese', link: '/' },
+          { text: 'English', link: '/en/' }
+        ]
+      }
+    ]
     logo: 'wowane.png',
     repo: '',
     editLinks: false,
@@ -50,10 +72,6 @@ module.exports = {
       {
         text: 'link',
         link: '/link/'
-      },
-      {
-        text: 'English',
-        link: 'https://tsuion.github.io/en/'
       }
     ],
     sidebar: {
