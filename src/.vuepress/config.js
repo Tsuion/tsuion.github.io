@@ -40,16 +40,6 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    nav: [
-      {
-        text: 'Languages',
-        ariaLabel: 'Language Menu',
-        items: [
-          { text: 'Japanese', link: '/' },
-          { text: 'English', link: '/en/' }
-        ]
-      }
-    ]
     logo: 'wowane.png',
     repo: '',
     editLinks: false,
@@ -57,6 +47,14 @@ module.exports = {
     editLinkText: '',
     lastUpdated: '最終更新日',
     nav: [
+       {
+        text: 'Languages',
+        ariaLabel: 'Language Menu',
+        items: [
+          { text: 'Japanese', link: '/' },
+          { text: 'English', link: '/en/' }
+        ]
+      },
       {
         text: 'About',
         link: '/about/',
