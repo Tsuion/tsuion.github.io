@@ -6,6 +6,6 @@ actionText: もっと見る
 actionLink: /about/
 features:
 - title: お知らせ
-  details: 2022.7.02 イメージを更新
+  details: 2022.7.26 プロジェクトを更新
 footer: ©wowane 2022
 ---
